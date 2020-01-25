@@ -50,7 +50,8 @@ main {
   background-color: #dddddd;
   padding-left: 10px;
   width: 100%;
-  height: 30px; }
+  height: 30px;
+  margin-bottom: 25px; }
 
 .blueContainer {
   display: flex;
@@ -58,12 +59,21 @@ main {
   padding-top: 25px;
   padding-bottom: 25px; }
 
-.blueContainer img {
-  width: 10%; }
+.blueContainer a {
+  width: 10.8%; }
+
+.blueContainer a img {
+  width: 100%;
+  height: 95%; }
+
+.orangeContainer {
+  width: 89%;
+  padding-right: 30px; }
 
 .pinkContainer {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding-bottom: 25px; }
 
 .pinkContainer div {
   width: 30%; }
@@ -95,7 +105,7 @@ main {
   background-color: black;
   color: white;
   position: relative;
-  margin-top: -21px;
+  margin-top: -54px;
   width: 100%;
   height: 60px; }
 
@@ -110,9 +120,14 @@ main {
   padding-top: 25px;
   padding-bottom: 80px; }
 
-.outerDiv img {
-  width: 20%;
+.outerDiv a {
+  width: 20%; }
+
+.outerDiv a img {
   padding-bottom: 20px; }
+
+.bannerAusnahme {
+  height: 97.5%; }
 
 .innerDiv {
   display: flex;
@@ -158,11 +173,22 @@ footer {
 
 .footer img {
   padding-left: 80%;
+  width: 100%;
   padding-top: 5%; }
 
 .credits {
   color: white;
   padding-top: 5%;
   font-size: 0.7em; }
+
+@media only screen and (max-width: 600px) {
+  .hidden {
+    display: block; }
+
+  .hiding {
+    display: none; }
+
+  .footer img {
+    padding-left: 25px; } }
 
 /*# sourceMappingURL=styles.css.map */
